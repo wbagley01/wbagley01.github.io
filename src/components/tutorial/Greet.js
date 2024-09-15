@@ -1,3 +1,4 @@
+// THIS IS AN EXAMPLE OF FUNCTIONAL COMPONENTS
 import React from 'react'
 
 // Function Declaration
