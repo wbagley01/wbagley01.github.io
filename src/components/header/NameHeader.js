@@ -7,7 +7,7 @@ function NameHeader() {
         <div className='NameHeader'>
             <div className='Name'>William Bagley</div>
             <div className='Container'>
-                <div className='Competitive Alpha Geek'>Description</div>
+                <div className='Description'>Competitive Alpha Geek</div>
                 <img src= '/images/william.png' className='RealImage' alt=''/>
             </div>
             <div className='Container'>
