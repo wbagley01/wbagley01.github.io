@@ -1,0 +1,31 @@
+.NameHeader{
+    color: black;
+}
+
+.Name {
+    color: blue;
+    font-size: 50px;
+}
+
+.Description {
+    font-size: 30px;
+}
+
+.RealImage {
+    width: 100px;
+    margin-left: 50px;
+}
+
+.ImageIcons {
+    font-size: 10px;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+}
+
+/* Needs to have a link. Also want whenever you hover over it to get bigger and highlight*/
+.Social {
+    color: red;
+}

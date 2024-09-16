@@ -1,6 +1,7 @@
 
 .App {
   font: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .App-header {
@@ -12,14 +13,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-h1 {
-  color: tomato;
-}
-
-h2 {
-  color: black;
 }
 
 
