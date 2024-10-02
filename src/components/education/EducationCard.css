@@ -1,0 +1,8 @@
+.EducationCard {
+    color: black;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+}
