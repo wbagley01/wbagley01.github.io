@@ -25,12 +25,12 @@ function NameHeader() {
             </div>
             <div className='ImageIcons'>
                 <a href='https://www.linkedin.com/in/william-bagley-179326230/'>
-                    <img src= '/images/linkedin.png'/>
+                    <img src= '/images/linkedin.png' className='Image'/>
                 </a>
                 <a href='https://github.com/wbagley01'>
-                    <img src= '/images/github.png'/>
+                    <img src= '/images/github.png' className='Image'/>
                 </a>
-                <img src= '/images/gmail.png' onClick={handleImageClick}></img>
+                <img src= '/images/gmail.png' onClick={handleImageClick} className='Image'/>
             </div>
         </div>
     )
