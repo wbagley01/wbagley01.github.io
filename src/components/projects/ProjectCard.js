@@ -4,7 +4,7 @@ import './ProjectCard.css'
 
 function ProjectSlot({title, description, image, techStack}) {
     return(
-        <div className='ProjectCard'>
+        <div className='ProjectSlot'>
             <div className='Container'>
                 <header> {title} </header>
                 <img src={image}></img>
@@ -17,8 +17,25 @@ function ProjectSlot({title, description, image, techStack}) {
 
 function ProjectCard() {
     return(
-        <ProjectSlot title="Test" description="Test2" image="/images/linkedin.png" techStack="test" />
+        <div className='Grid'>
+            <ProjectSlot title={projects[0].title} description={projects[0].description} image={projects[0].image} techStack={projects[0].techStack} />
+            <ProjectSlot title={projects[0].title} description={projects[0].description} image={projects[0].image} techStack={projects[0].techStack} />
+            <ProjectSlot title={projects[0].title} description={projects[0].description} image={projects[0].image} techStack={projects[0].techStack} />
+            <ProjectSlot title={projects[0].title} description={projects[0].description} image={projects[0].image} techStack={projects[0].techStack} />
+            <ProjectSlot title={projects[0].title} description={projects[0].description} image={projects[0].image} techStack={projects[0].techStack} />
+            <ProjectSlot title={projects[0].title} description={projects[0].description} image={projects[0].image} techStack={projects[0].techStack} />
+        </div>
+
     )
 }
+
+const projects = [
+    {
+        title: "Portfolio",
+        description: "Deploying a React app on Github Pages",
+        image: "/images/linkedin.png",
+        techStack: ["React ", "HTML ", "CSS ", "Github Pages"]
+    },
+]
 
 export default ProjectCard;

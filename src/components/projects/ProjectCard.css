@@ -1,8 +1,13 @@
-.ProjectCard {
+.ProjectSlot {
     color: black;
 }
 
 .Container {
     display: flex;
     align-items: center;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: 500px 500px;
 }
