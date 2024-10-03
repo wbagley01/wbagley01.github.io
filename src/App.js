@@ -7,9 +7,7 @@ import EducationCard from './components/education/EducationCard';
 function App() {
   return (
     <div className='App'>
-      <NameHeader />
-      <EducationCard />
-      <ProjectCard />
+      Work in Progress
     </div>
   );
 }
